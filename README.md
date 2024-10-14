@@ -5,7 +5,7 @@ This project is a simple front-end website designed to function as a storefront 
 
 ## Live Demo
 Check out the live demo of the Bean Storefront:  
-[https://yourusername.github.io/bean-storefront](https://yourusername.github.io/bean-storefront)
+[https://giulialoomis.github.io/beanstore-frontend/](https://giulialoomis.github.io/beanstore-frontend/)
 
 ## Features
 - **Product Listings**: Display multiple types of beans with images, descriptions, and prices.

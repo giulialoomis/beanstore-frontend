@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>
+			listsandlinks.html
+		</title>
+		<meta charset=utf-8>
+		<link rel="stylesheet" href="main.css" type="text/css">
+	</head>
+	<body>
+		<header>
+			<h1>
+				Lists and Links
+			</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Giulia's Web Design Site</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>Procedure to Create and View a Website on the Production Server</h2>
+			<ol>
+				<li>Clone your respository to make sure everything goes into your github respository.Use this command-> git clone --config="http.proxy=http://uname:pword@192.168.2.1:8080" http://url-to-your-repo</li>
+				<li>Then use the command cd(insert respository name) to make sure everything goes into the wanted respository</li>
+				<li>To create a new website in your respository, use the command gedit (filename.html) & . The & is so that you can use terminal and gedit at the same time.</li>
+				<li>Then, you can edit this html file however you want as long as the coding is valid.</li>
+				<li>To view it on your development server, use the command python -m SimpleHTTPServer and then open a new tab on google chrome and type in localhost:8000/(filename.html)</li>
+				<li> To make sure your code is valid, you have to validate it using this website https://validator.w3.org/</li>
+				<li> Fix any errors that the validator points out and validate it again. Make sure there are no errors. </li>
+				<li> Now you can view it on the production server. Use the command sftp sftpusername@cmis-hsteacher . This will allow you to transfer files to a specific production server.</li>
+				<li>Then it will ask you "Are you sure you want to continue connecting (yes/no)?. Type in yes and hit enter
+			</li>
+				<li>It will ask you for your password. Type it in and hit enter.</li>
+				<li> Use the command cd public_html to make sure that you're in the right folder in both yours and the production servers computer.</li>
+				<li> To upload a file to the production sever, use the command put (filenameyouwanttoupload.html)</li>
+				<li> Now if you want to view the file you just uploaded on the production server, type in on the search bar http://cmis-hsteacher/~(sftpusername)/(uploadedfilename).
+				<li> If you want to exit from sftp on your terminal, use the command, Ctrl+D.</li>
+			</ol>
+			<h2>Helpful Websites</h2>
+			<ul>
+				<li><a href="http://www.w3schools.com/css/">www.w3schools.com</a>
+				<li><a href="http://www.cssmatic.com/">www.cssmatic.com</a>
+				<li><a href="http://www.csstutorial.net"> www.csstutorial.net</a>
+				<li><a href="http://www.echoecho.com/css.htm">www.echoecho.com</a>
+				<li><a href="http://www.tizag.com/cssT/">www.tizag.com</a>
+				<li><a href="http://www.quackit.com/css/tutorial/">www.quackit.com</a>
+			</ul>
+		</main>
+		<footer>
+			2016 Giulia Loomis-CMIS Web Design
+		</footer>
+	</body>
+</html>

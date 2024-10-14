@@ -1,0 +1,166 @@
+/* 1.border-style
+2. border-color
+3.border-width
+4.color
+5.background-color
+6. text-shadow
+7.text-align
+8.text-decoration
+9.text-transform
+10.letter-spacing
+11.word-spacing
+12. font-family
+13.border
+14.outline-style
+15.outline-color
+16.outline-width
+17.outline
+18.text-indent
+19.padding-top (bottom,right,left)
+20.margin
+21.border-bottom (color,style)
+22. border-top (color,style,width)
+Learnt how to add an image as background
+Learnt how to use shadows */
+/*Requirements
+*Create a new file called "main.css"
+*Add a link element to the head of your index.html file
+<link rel="stylesheet" href="main.css" type="text/css">
+*Edit the main.css file
+*add a declaration for each element in the body of your index.html file.
+*add properties to style the background color of each element.
+*add properties to style the border of each element.
+*add properties to style the font and text of each element.
+*Use at least 20 different properties. Include a list of these 20 at the TOP of your main.css file as a css comment.
+Use at least 4 different units to set sizes of various aspects of your webpage.
+*Go learn something from 2 classmates; add a comment to your main.css file that describes what you learned.
+*View your index.html in the development server.
+*Validate your index.html file.
+*Validate your main.css file.
+*Copy this list of requirements and paste it into the top of your "main.css" file as a css comment. Put an asterisk in front of each one that you did.
+*Upload to the production server with sftp.
+*View your index.html in the production server.*/
+/* 1. I learnt how to do gradients
+2. I learnt how to decorate the text with different properties such as underlining */
+header{
+	border-style: solid;
+  	border-color: #6495ED #FF7F50;
+	border-width:16px;
+	color:#2F4F4F;
+	background-color:#008080;
+	text-shadow: 2px 2px #FFB6C1;
+	text-align: center;
+	text-decoration:underline;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	word-spacing:5px;
+	font-size:20px;
+	font-family:"Courier New", Courier, monospace
+}
+nav{
+	background-color:#498F91;
+	border:0.2cm solid black;
+	border-color:#EDBED2;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:15px;
+}
+main p{
+	background-color:#EEA9F6;
+	border:7px solid black;
+	border-color:#A9E9F6;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size:14px;
+}
+footer{
+	background-color:#CB6494;
+	border:7px solid black;
+	border-color:#A9F6CF;
+	font-family:Impact, Charcoal, sans-serif;
+	font-size:15px;
+}
+p{
+	border: 1in solid black;
+	outline-style:double;
+	outline-color:red;
+	outline-width:thick;
+	outline:5px dashed red;
+	color:#5F9EA0;
+	background-color:#4B0082;
+	text-indent: 50px;
+	padding-top: 50px;
+   	padding-right: 30px;
+    	padding-bottom: 50px;
+    	padding-left: 80px;
+	margin: 100px 150px 100px 150px;
+	font-family:"Comic Sans MS", cursive, sans-serif
+}
+h1,h2{    
+	border-bottom-color:#A8F2E0;
+	border-bottom-style:dashed;
+	border-top-color:#7CEDD3;
+	border-top-style:dotted;
+	border-top-width:10px;
+	color:#445DA1;
+	background:linear-gradient(pink,yellow);
+	text-align: center;
+	text-shadow:2px 2px #97B3FE ;
+	font-family:"Courier New", Courier, monospace
+}
+body{
+	background-color:#CBB7FA;
+	letter-spacing:2px;	
+	text-shadow:2px 2px #97B3FE ;
+	border:1px solid black;
+}
+ol{
+	background-color:#008080;
+	border:1px solid black;
+	margin:1px;
+	padding:5px;
+	padding-left:35px;
+	width:820px;
+	height:600px;
+	text-shadow:2px 2px #97B3FE ;
+}
+ul{
+	background-color:#008080;
+	border:1px solid black;
+	margin:1px;
+	padding:5px;
+	padding-left:35px;
+	width:820px;
+	height:400px;
+	text-shadow:2px 2px #97B3FE ;
+}
+li{
+	background-color:#008080;
+	border:1px solid;
+	border-color:red;
+	margin:1px;
+	padding:5px;
+	padding-left:35px;
+	width:820px;
+	height:30px;
+	text-shadow:2px 2px #97B3FE ;
+}
+a{
+	background-color:#008080;
+	border:2mm solid;
+	border-color:blue;
+	margin:1px;
+	padding:5px;
+	padding-left:35px;
+	width:820px;
+	height:30px;
+	text-shadow:2px 2px #97B3FE ;
+}
+
+
+
+
+
+
+
+
+
+

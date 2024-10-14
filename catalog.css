@@ -1,0 +1,120 @@
+html{
+	background-image:url("https://40.media.tumblr.com/8bd5c623d4387d79c4d7db3d7dd0cd27/tumblr_inline_nn85uduAqT1rewzq7_540.png")
+}
+body main{
+	text-align:center;
+	color:black;
+}
+article{
+	background-color:#031515;
+	width:797px;
+	margin-left:10.3cm;
+	margin-right:9.3cm;
+	position: center;
+	margin-top:1cm;
+	border: solid #3B585C;
+	border-style: solid;
+	border-width: 5px;
+}
+header{
+	color:#faa3a3;
+	background-color:#031515;
+	width:797px;
+	margin-left:10.3cm;
+	margin-right:9.3cm;
+	margin-top:2cm;
+	margin-bottom:1cm;
+	position: center;
+	padding-top:2px;
+	padding-bottom:1px;
+	text-align: center;
+	text-transform:uppercase;
+	letter-spacing:3px;
+	word-spacing:5px;
+	font-size:35px;
+	border: solid #3B585C;
+	border-style: solid;
+	border-width: 5px;
+	font-family:"Comic Sans MS", cursive, sans-serif
+}
+h2{
+	color:#FFFFFF;
+	border-style: dashed;
+  	border-color: #d7d4fc #fcd4f9;
+	border-width:12px;
+	width:15cm;
+	position:center;
+	font-size:40px;
+	margin-left:2.7cm;
+	margin-right:3cm;
+	padding-top:2mm;
+	padding-bottom:2mm;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+h3{
+	color:#FFFFFF;
+	font-size:28px;
+	letter-spacing:5px;
+	border-style:double;
+	border-width:7px;
+	border-left:3cm;
+	border-color:#A98A7E #372924;
+	font-family:Impact, Charcoal, sans-serif;
+}
+nav,footer{
+	color:#7EC4CE;
+	letter-spacing:3px;
+	padding-top:10px;
+	font-style:oblique;
+	font-size:20px;
+	text-align:center;
+	margin:auto;
+	font-family:"Courier New", Courier, monospace;	
+}
+p{
+	color:#545C5D;
+	font-style:italic;
+	font-size:20px;
+}
+h1{
+	color:white;
+	font-size:25px;
+	letter-spacing:2mm;
+	text-transform:uppercase;
+	font-family: "Lucida Console", Monaco, monospace;
+}
+img{
+	border:5px solid #FFAA8F;
+}
+ul{
+	text-align:center;
+	border-color:white;
+	border-width:5px;
+	list-style-type:none;
+}
+li{
+	color:#DDB2F0;
+	font-size:15px;
+	text-align:center;
+	margin-left:6.2cm;
+   	width: 30%;
+   	border:3px solid black;
+	border-color:#154140;
+	border-width:2px;
+	background:#0A2326;
+    	padding: 10px;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+a{
+	width:820px;
+	height:30px;
+	text-shadow:3px 3px #EA83BD;
+}
+script{
+	color:transparent;
+}
+a:hover{
+	color:white;
+	font-weight:bolder;
+	text-decoration:overline;
+}
